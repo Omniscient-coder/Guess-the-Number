@@ -34,7 +34,13 @@ def computer_guess(y):
     
     print(f"Yay! the computer gussed your number. ")
 
-
+    
+user = input("Welcome! How would you like to play?\n1. You guess the number.\n2. The computer guesses the number.")
+if user == "1":
+    return guess()                       #enter the end point of the number you want to guess
+elif user == "2":
+    return computer_guess()              #enter the end point of the number computer want to guess
+        
 
         
 
